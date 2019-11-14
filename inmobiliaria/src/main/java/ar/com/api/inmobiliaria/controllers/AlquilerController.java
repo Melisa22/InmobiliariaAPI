@@ -26,7 +26,7 @@ public class AlquilerController {
         int alquilerId = alquilerService.crearAlquiler(req.mesesAlquiler, req.moneda, req.montoTotal);
         
         r.isOk = true;
-        r.message = "El alquiler se ha creado con éxito!!!!";
+        r.message = "El alquiler se ha creado con éxito.";
         r.alquilerId = alquilerId;
         return r;
     }
